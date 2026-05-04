@@ -1,0 +1,14 @@
+name: nes
+---
+R: #D82800   # mario red
+S: #FCBC8C   # skin
+B: #884C1C   # brown
+L: #3C5CF8   # blue overalls
+Y: #FCDC3C   # gold
+K: #000000   # black
+W: #FCFCFC   # white
+G: #00A800   # grass
+O: #E45C10   # brick orange
+C: #5C94FC   # sky
+H: #B8741C   # darker brown / hill
+D: #A01800   # darker red / shading

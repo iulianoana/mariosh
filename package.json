@@ -1,0 +1,33 @@
+{
+  "name": "mariosh",
+  "version": "0.1.0",
+  "description": "Mario-style terminal platformer with half-block pixel rendering",
+  "type": "module",
+  "bin": { "mariosh": "./bin/mariosh.js" },
+  "engines": { "node": ">=18" },
+  "files": ["bin", "dist", "src/assets", "README.md"],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.tsx",
+    "demo": "tsx scripts/render-demo.ts",
+    "start": "node bin/mariosh.js",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "ansi-escapes": "^7.0.0",
+    "chalk": "^5.3.0",
+    "ink": "^5.0.1",
+    "ink-select-input": "^6.0.0",
+    "ink-text-input": "^6.0.0",
+    "react": "^18.3.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+# Goomba walk frame 1
+name: goomba_walk_1
+size: 16x16
+palette: nes
+---
+.....KKKKKK.....
+....KBBBBBBK....
+...KBBBBBBBBK...
+..KBBBBBBBBBBK..
+..KBBBBBBBBBBK..
+.KBBSSBBBBSSBBK.
+.KBSKWSBBSKWSBK.
+.KBSKWSBBSKWSBK.
+.KBBSSBBBBSSBBK.
+.KBBBBBBBBBBBBK.
+.KBBBHHHHHHBBBK.
+..KHHHHHHHHHHK..
+..KHHHHHHHHHHK..
+...KHHK..KHHK...
+...KBBK..KBBK...
+....KK....KK....
